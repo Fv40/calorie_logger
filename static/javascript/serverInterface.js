@@ -1,4 +1,4 @@
-const proxy = "http://localhost:8081" // temporary (obviously)
+const proxy = "http://localhost:8081" // temp for testing
 const userEndpoint = `${proxy}/user/get-access`
 const calorieEndpoint = `${proxy}/calorie/add`
 let auth;
@@ -51,8 +51,6 @@ updateAuthButton.addEventListener('click', () => {
         auth = newAuth
 
         window.getData();
-    } else {
-        alert('You need to fill out the auth pls');
     }
 });
 
