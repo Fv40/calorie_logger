@@ -1,4 +1,4 @@
-const proxy = "https://b347-98-15-181-20.ngrok-free.app"
+const proxy = "https://9a89-98-15-181-20.ngrok-free.app"
 const userEndpoint = `${proxy}/user/get-access`
 const calorieEndpoint = `${proxy}/calorie/add`
 let auth;
