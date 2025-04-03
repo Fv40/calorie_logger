@@ -4,19 +4,19 @@
     <title>Meals</title>
 </head>
 <body>
-    <div style="margin-bottom: 20px; display: none;" id="foodDiv">
+    <div style="display: flex; color: rgb(255, 0, 157); font-size: 20px; font-family: 'Courier New', Courier, monospace; margin-top: 20px;">
+        <div id="column1" style="flex: 1; padding: 10px; border: 1px solid rgb(133, 133, 133);"></div>
+        <div id="column2" style="flex: 1; padding: 10px; border: 1px solid rgb(133, 133, 133);"></div>
+    </div>
+
+    <div style="margin-top: 20px; margin-bottom: 50px; text-align: center; display: none" id="foodDiv">
         <input type="text" id="foodInput" placeholder="Foodname (x cal)" style="padding: 5px; width: 200px;">
         <button id="foodInputButton" style="padding: 5px; text-align: right;">Enter Food</button>
     </div>
 
-    <div id="authDiv" style="margin-bottom: 20px">
+    <div id="authDiv" style="margin-top: 20px; text-align: center;">
         <input type="text" id="authInput" placeholder="Your auth here" style="padding: 5px; width: 200px;">
         <button id="updateAuthButton" style="padding: 5px;">Login</button>
-    </div>
-
-    <div style="display: flex; color: rgb(255, 0, 157); font-size: 20px; font-family: 'Courier New', Courier, monospace; margin-top: 20px;">
-        <div id="column1" style="flex: 1; padding: 10px; border: 1px solid rgb(133, 133, 133);"></div>
-        <div id="column2" style="flex: 1; padding: 10px; border: 1px solid rgb(133, 133, 133);"></div>
     </div>
 
     <script src="../javascript/serverInterface.js"></script>

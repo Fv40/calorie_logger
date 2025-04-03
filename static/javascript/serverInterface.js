@@ -21,6 +21,7 @@ async function getData() {
         let userTexts = serverText.split('%--BREAK--%')
         document.getElementById('column1').innerText = userTexts[0];
         document.getElementById('column2').innerText = userTexts[1];
+        window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
     }
 }
 
